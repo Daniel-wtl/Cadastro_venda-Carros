@@ -96,6 +96,10 @@ CREATE TABLE `carros`.`veiculo` (
     ON UPDATE NO ACTION);
 ```
 
-Depois procure um botão chamado **Administration** e clque, logo após, em **Users and Privileges**. Adicione uma conta, crie um nome e uma senha. Depois vá em **Schema Privileges**, **Add Entry**, selecione todas as opções da aba **Object Rights**.
+Depois procure um botão chamado **Administration** e clique, logo após, em **Users and Privileges**, e adicione uma conta, crie um nome e uma senha. Depois vá em **Schema Privileges**, **Add Entry**, selecione todas as opções da aba **Object Rights**.
 
-No menu, clique em **+**, coloque um nome na conecxão logo, insira o nome de usuario que foi criado e então em **Default Schema** coloque o nome **carros**
+No menu, clique em **+**, coloque um nome na conecxão logo, insira o nome de usuario que foi criado e então em **Default Schema** coloque o nome **carros**.
+
+No código Python, na variável **user** coloque seu nome de usuário e na variável **password** coloque sua senha (o nome de usuario e senha entre aspas).
+
+Agora pode rodar o código.
