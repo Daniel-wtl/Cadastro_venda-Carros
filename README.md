@@ -95,3 +95,7 @@ CREATE TABLE `carros`.`veiculo` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);
 ```
+
+Depois procure um botão chamado **Administration** e clque, logo após, em **Users and Privileges**. Adicione uma conta, crie um nome e uma senha. Depois vá em **Schema Privileges**, **Add Entry**, selecione todas as opções da aba **Object Rights**.
+
+No menu, clique em **+**, coloque um nome na conecxão logo, insira o nome de usuario que foi criado e então em **Default Schema** coloque o nome **carros**
