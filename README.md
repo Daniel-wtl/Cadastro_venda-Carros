@@ -15,7 +15,7 @@ Para baixar o CustomTKinter: `pip install customtkinter`
 
 Para baixar o MySQLdb: `pip install mysqlclient`
 
-## Como Baixar
+## Como Baixar o  código
 Clique em **code --> download ZIP** e abra a pasta. Depois selecione o arquivo **loja de carros (cadastro)**
 
 ## Como criar o Banco de Dados
