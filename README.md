@@ -24,6 +24,7 @@ Baixe o MySql Workbench: `https://www.mysql.com/products/workbench/`
 Abra o arquivo e siga os passos.
 
 No MySqlWorkbench abra um projeto e rode o codigo:
+```
 CREATE SCHEMA `carros` ;
 
 CREATE TABLE `carros`.`ano` (
@@ -93,3 +94,4 @@ CREATE TABLE `carros`.`veiculo` (
     REFERENCES `carros`.`proprietario` (`id_proprietario`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);
+```
